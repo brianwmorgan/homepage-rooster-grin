@@ -1,4 +1,4 @@
-# Landing Page for Rooster Grin
+# Homepage for Rooster Grin
 
 This project is a static homepage for Rooster Grin. It was designed using provided assets, including a mockup and images. It utilizes React as a frontend framework and Bootstrap as a CSS framework.
 
