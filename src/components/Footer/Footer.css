@@ -1,0 +1,19 @@
+#footer {
+  min-width: 100vw;
+  background-color: whitesmoke;
+  padding: 1vw;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 2vw;
+  margin: 0.25vw;
+}
+
+#footer a {
+    padding: 1vw;
+}
+
+#footer img {
+  width: 4vw;
+}

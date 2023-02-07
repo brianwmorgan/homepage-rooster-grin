@@ -1,0 +1,28 @@
+#section2 {
+  min-width: 100vw;
+  background-image: url(../../assets/images/banner-mom-child-computer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+
+.section2-info {
+  margin: 15vw;
+  padding-top: 2vh;
+}
+
+.section2-info h2 {
+  color: purple;
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 0;
+}
+
+.section2-info .btn {
+  background-color: darkorange;
+  color: white;
+  border-radius: 0;
+  font-size: 1vw;
+  padding: 0.7vw 0.8vw 0.4vw 0.8vw;
+}

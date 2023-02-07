@@ -1,0 +1,38 @@
+.carousel {
+    max-width:40vw;
+    height:100%;
+    margin-top: 2vh;
+}
+
+.carousel-item {
+    height:100%;
+    overflow: scroll;
+    margin-top: 3vw;
+}
+
+.review-title {
+    font-size: 1.6vw;
+    font-weight:bold;
+    color: rgba(92, 0, 128, 0.856);
+}
+
+.review-text {
+    font-size: 1.6vw;
+}
+
+.carousel-item-counter {
+    color: yellow
+}
+
+.carousel-indicators {
+    list-style: disc;  
+}
+    
+.carousel-indicators li{
+    color: orange;
+    
+}
+
+.fa-angle-right, .fa-angle-left {
+    color: purple;
+}
