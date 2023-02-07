@@ -1,0 +1,80 @@
+#section3 {
+  min-width: 100vw;
+  padding: 0;
+}
+
+#section3 .col {
+  padding: 0;
+}
+
+#section3 .col1 {
+  min-width: 50vw;
+}
+
+.section3-info {
+  min-height: 100%;
+  padding: 6vw 5vw 5vw 10vw;
+}
+
+.section3-info h2 {
+  color: black;
+  font-size: 3vw;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.section3-info p {
+  font-size: 1.6vw;
+  margin-top: 1vh;
+  margin-bottom: 0;
+}
+
+.section3-info a {
+  color: purple;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  padding: 0;
+}
+
+#section3 .col2 {
+  min-width: 50vw;
+  background-color: whitesmoke;
+}
+
+.icon-set {
+  background-color: aqua;
+  width: 15vw;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.icon-set:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.25, 1.25, 1.25);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.icon-set img {
+  border: solid purple 0.1vw;
+  border-radius: 50%;
+  padding: 1.5vw;
+}
+
+.icon-set p {
+  font-size: 1.6vw;
+  font-weight: bolder;
+  text-align: center;
+}
