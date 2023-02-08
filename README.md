@@ -4,7 +4,7 @@ This project is a static homepage for Rooster Grin. It was designed using provid
 
 ## Links
 
-The live app is deployed on Render and can be visited [here](URL TBD).
+The live app is deployed on Render and can be visited [here](https://homepage-rooster-grin.onrender.com).
 
 ## Technology
 
