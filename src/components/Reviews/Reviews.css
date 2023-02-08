@@ -1,0 +1,25 @@
+.reviews {
+  min-width: 100vw;
+  padding: 0;
+}
+
+.reviews-text {
+  min-height: 100%;
+  padding: 10vw 0vw 0vh 17vw;
+}
+
+.reviews-text h2 {
+  font-size: 3vw;
+  font-weight: bolder;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.reviews-text .fa-star {
+  color: #FF5F1F;
+  margin: .5vw;
+}
+
+.reviews .col-7 {
+  padding-left: 5vw;
+}

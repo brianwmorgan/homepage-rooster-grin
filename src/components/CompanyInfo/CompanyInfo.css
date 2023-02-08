@@ -1,0 +1,83 @@
+.company-info {
+  min-width: 100vw;
+  padding: 0;
+}
+
+.company-info-text {
+  margin: 11vw 5vw 0 18vw;
+}
+
+.company-info-text h2 {
+  font-size: 3vw;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.company-info-text p {
+  font-size: 1.2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vw;
+}
+
+.company-info-text a {
+  color: purple;
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding: 0;
+}
+
+.company-info-links {
+  background-color: whitesmoke;
+  padding: 8vw 0 5vw 0vw;
+}
+
+.company-info-links .row {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 11vw;
+  padding-bottom: 2vh;
+}
+
+.company-info-links .icon-set {
+  margin-bottom: 1vh;
+  width: 12vw;
+}
+
+.company-info-links .icon-set:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.25, 1.25, 1.25);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.company-info-links .icon-set img {
+  border: solid purple 0.1vw;
+  border-radius: 50%;
+  padding: 1.5vw;
+  width: 8vw;
+}
+
+.company-info-links .icon-set p {
+  font-size: 1.6vw;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 0;
+}
+
+.company-info-links .icon {
+  display: flex;
+  justify-content: center;
+}
