@@ -2,15 +2,15 @@ import "./ReviewsCarousel.css";
 
 function ReviewsCarousel() {
   return (
-    <div id="reviewsCarousel" className="carousel slide" data-ride="carousel">
+    <div id="carousel" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
         <li
-          data-target="#reviewsCarousel"
+          data-target="#carousel"
           data-slide-to="0"
           className="active"
         ></li>
-        <li data-target="#reviewsCarousel" data-slide-to="1"></li>
-        <li data-target="#reviewsCarousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner">
         <div className="carousel-item active">
@@ -49,7 +49,7 @@ function ReviewsCarousel() {
       </div>
       <a
         className="carousel-control-prev"
-        href="#reviewsCarousel"
+        href="#carousel"
         role="button"
         data-slide="prev"
       >
@@ -58,7 +58,7 @@ function ReviewsCarousel() {
       </a>
       <a
         className="carousel-control-next"
-        href="#reviewsCarousel"
+        href="#carousel"
         role="button"
         data-slide="next"
       >

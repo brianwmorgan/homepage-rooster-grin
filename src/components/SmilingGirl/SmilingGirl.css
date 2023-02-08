@@ -1,35 +1,35 @@
-#section4 {
+.smiling-girl {
   min-width: 100vw;
-  background-image: url(../../assets/images/banner-girl-smiling.jpg);
+  background-image: url(../../assets/images/banner-smiling-girl.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 0;
 }
 
-.section4-info {
-  margin: 5vw;
+.smiling-girl-info {
+  margin: 8vw 5vw 10vw 5vw;
   padding:3vh;
 }
 
-.section4-info h2 {
+.smiling-girl-info h2 {
   color: purple;
   font-size: 3vw;
   font-weight: bold;
   margin: 0;
 }
 
-.section4-info p {
-  font-size: 1.6vw;
+.smiling-girl-info p {
+  font-size: 1.2vw;
   margin-top: 1vh;
-  margin-bottom: 0;
-  margin-right: 5vw;
+  margin-bottom: 1vw;
+  margin-right: 13vw;
 }
 
-.section4-info .btn {
+.smiling-girl .btn {
   background-color: darkorange;
   color: white;
   border-radius: 0;
   font-size: 1vw;
-  padding: 0.7vw 0.8vw 0.4vw 0.8vw;
+  padding: 0.8vw 0.8vw 0.6vw 0.8vw;
 }

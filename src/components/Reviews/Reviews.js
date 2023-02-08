@@ -1,12 +1,12 @@
 import ReviewsCarousel from "../ReviewsCarousel/ReviewsCarousel";
-import "./Section5.css";
+import "./Reviews.css";
 
-function Section5() {
+function Reviews() {
   return (
-    <div className="container" id="section5">
+    <div className="container reviews" id="reviews">
       <div className="row">
-        <div className="col col1">
-          <div className="section5-info">
+        <div className="col col-5">
+          <div className="reviews-text">
             <h2>LOREM IPSUM</h2>
             <h2>DOLOR SIT AMET</h2>
             <span className="fa fa-star"></span>
@@ -16,7 +16,7 @@ function Section5() {
             <span className="fa fa-star"></span>
           </div>
         </div>
-        <div className="col col2">
+        <div className="col col-7">
             <ReviewsCarousel />
         </div>
       </div>
@@ -24,4 +24,4 @@ function Section5() {
   );
 }
 
-export default Section5;
+export default Reviews;

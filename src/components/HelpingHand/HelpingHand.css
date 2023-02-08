@@ -1,0 +1,31 @@
+.helping-hand {
+  min-width: 100vw;
+  padding: 0;
+}
+
+.helping-hand-info {
+  max-width: 50vw;
+  margin: 8vw 5vw 0vw 18vw;
+}
+
+.helping-hand-info h2 {
+  color: purple;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+.helping-hand-info p {
+  font-size: 1.2vw;
+  margin: 0;
+}
+
+.helping-hand-info a {
+  color: purple;
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding: 0;
+}
+
+.col2 img {
+  width: 100%;
+}
