@@ -10,11 +10,11 @@ The live app is deployed on Render and can be visited [here](URL TBD).
 
 - Javascript, React, HTML, CSS, Bootstrap  
   
-![JS icon](images/javascript.png)
-![React icon](images/react.png)
-![HTML icon](images/html.png)
-![CSS icon](images/css.png) 
-![Bootstrap icon](images/bootstrap.png)  
+![JS icon](src/assets/githubIcons/javascript.png)
+![React icon](src/assets/githubIcons/react.png)
+![HTML icon](src/assets/githubIcons/html.png)
+![CSS icon](src/assets/githubIcons/css.png) 
+![Bootstrap icon](src/assets/githubIcons/bootstrap.png)  
 
 ## Installation
 
