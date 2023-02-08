@@ -4,7 +4,8 @@ This project is a static homepage for Rooster Grin. It was designed using provid
 
 ## Links
 
-The live app is deployed on Render and can be visited [here](https://homepage-rooster-grin.onrender.com).
+The live app is deployed on Render and can be visited [here](https://homepage-rooster-grin.onrender.com).  
+(Note: I use Render's "free" tier, which can result in slow loading for SPAs. If images, animations, etc. aren't working when you first click the link above, refresh the page once or twice - that should do the trick!) 
 
 ## Technology
 
