@@ -1,14 +1,10 @@
-import "./ReviewsCarousel.css";
+import "./ReviewsCarousel.scss";
 
 function ReviewsCarousel() {
   return (
     <div id="carousel" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
-        <li
-          data-target="#carousel"
-          data-slide-to="0"
-          className="active"
-        ></li>
+        <li data-target="#carousel" data-slide-to="0" className="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
       </ol>
@@ -53,7 +49,9 @@ function ReviewsCarousel() {
         role="button"
         data-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"><span className="fa fa-angle-left"></span></span>
+        <span className="carousel-control-prev-icon" aria-hidden="true">
+          <span className="fa fa-angle-left"></span>
+        </span>
         <span className="sr-only">Previous</span>
       </a>
       <a
@@ -62,7 +60,9 @@ function ReviewsCarousel() {
         role="button"
         data-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"><span className="fa fa-angle-right"></span></span>
+        <span className="carousel-control-next-icon" aria-hidden="true">
+          <span className="fa fa-angle-right"></span>
+        </span>
         <span className="sr-only">Next</span>
       </a>
     </div>

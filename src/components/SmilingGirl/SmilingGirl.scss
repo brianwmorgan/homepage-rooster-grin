@@ -1,0 +1,35 @@
+.smiling-girl {
+  min-width: 100vw;
+  background-image: url(../../assets/images/banner-smiling-girl.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+
+  &__info {
+    margin: 8vw 5vw 10vw 5vw;
+    padding: 3vh;
+
+    & h2 {
+      color: purple;
+      font-size: 3vw;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    & p {
+      font-size: 1.2vw;
+      margin-top: 1vh;
+      margin-bottom: 1vw;
+      margin-right: 13vw;
+    }
+
+    & a {
+      background-color: darkorange;
+      color: white;
+      border-radius: 0;
+      font-size: 1vw;
+      padding: 0.8vw 0.8vw 0.6vw 0.8vw;
+    }
+  }
+}

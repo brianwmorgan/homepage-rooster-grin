@@ -1,0 +1,27 @@
+.mom-and-son {
+  min-width: 100vw;
+  background-image: url(../../assets/images/banner-mom-and-son.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+
+  &__info {
+    margin: 17.5vw 10vw 18vw 18vw;
+
+    & h2 {
+      color: purple;
+      font-size: 3vw;
+      font-weight: bold;
+      margin-bottom: 1vw;
+    }
+
+    & a {
+      background-color: darkorange;
+      color: white;
+      border-radius: 0;
+      font-size: 1vw;
+      padding: 0.8vw 0.8vw 0.6vw 0.8vw;
+    }
+  }
+}

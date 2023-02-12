@@ -1,0 +1,25 @@
+.reviews {
+  min-width: 100vw;
+  padding: 0;
+
+  &__info {
+    min-height: 100%;
+    padding: 10vw 0vw 0vh 17vw;
+
+    & h2 {
+      font-size: 3vw;
+      font-weight: bolder;
+      margin: 0;
+      white-space: nowrap;
+    }
+
+    & .fa-star {
+      color: #ff5f1f;
+      margin: 0.5vw;
+    }
+  }
+
+  &__carousel {
+    padding-left: 5vw;
+  }
+}
