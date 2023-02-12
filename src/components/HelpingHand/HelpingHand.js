@@ -1,12 +1,12 @@
 import rockClimbers from "../../assets/images/half-banner-helping-hand.jpg";
-import "./HelpingHand.css";
+import "./HelpingHand.scss";
 
 function HelpingHand() {
   return (
     <div className="container helping-hand" id="helping-hand">
       <div className="row">
-        <div className="col col-6 col1">
-          <div className="helping-hand-info">
+        <div className="col col-6 helping-hand__col1">
+          <div className="helping-hand__info">
             <h2>LOREM IPSUM</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -18,7 +18,7 @@ function HelpingHand() {
             <a href="http://www.roostergrin.com">&gt; Lorem Ipsum</a>
           </div>
         </div>
-        <div className="col col-6 col2">
+        <div className="col col-6 helping-hand__col2">
           <img src={rockClimbers} alt="rock climbers" />
         </div>
       </div>

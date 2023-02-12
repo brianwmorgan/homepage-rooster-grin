@@ -16,14 +16,14 @@
   background-size: cover;
   padding: 0;
 
-  & .row .col img {
+  &__rooster-grin-logo {
     position: absolute;
     top: 2.5vw;
     left: 12vw;
     width: 20vw;
   }
 
-  & > .row .col .welcome-text {
+  &__welcome-text {
     text-align: center;
     margin-top: 19%;
     margin-bottom: 15%;

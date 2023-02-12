@@ -1,4 +1,4 @@
-import "./SmilingGirl.css";
+import "./SmilingGirl.scss";
 
 function SmilingGirl() {
   return (
@@ -6,7 +6,7 @@ function SmilingGirl() {
       <div className="row">
         <div className="col"></div>
         <div className="col">
-          <div className="smiling-girl-info">
+          <div className="smiling-girl__info">
             <h2>LOREM IPSUM</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
